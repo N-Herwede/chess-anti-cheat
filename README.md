@@ -40,8 +40,14 @@ Models trained on features extracted using Stockfish evaluations:
 - Add per-move engine agreement visualizations
 - Export results and visualizations to PDF/PNG
 
- ---
+---
+## Credit
+This project uses Stockfish, a powerful open-source chess engine developed by the Stockfish community.
+Stockfish is licensed under the GNU General Public License v3 (GPLv3).
+Copyright (C) 2004–2025 The Stockfish developers
+You can find the official source code here: https://github.com/official-stockfish/Stockfish
 
+---
 ##  Run Locally
 
 ```bash
