@@ -1,4 +1,4 @@
-## Noah HERWEDE - Laïfa AHMED-YAHIA DS2E M1
+## Noah HERWEDE - Laïfa AHMED-YAHIA M1-DS2E
 
 # Chess Anti-Cheat Detector  
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
