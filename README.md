@@ -62,3 +62,7 @@ You can find the official data here: https://database.lichess.org/
 - Use Apifeatcher to retrieve data for the specific games you want to analyze.
 - Lauch the main script
 
+---
+
+## Launch on your computer 
+
