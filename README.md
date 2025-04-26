@@ -46,10 +46,11 @@ Models trained on features extracted using Stockfish evaluations:
 This project uses Stockfish, a powerful open-source chess engine developed by the Stockfish community.
 Stockfish is licensed under the GNU General Public License v3 (GPLv3).
 Copyright (C) 2004–2025 The Stockfish developers
-You can find the official source code here: https://github.com/official-stockfish/Stockfish
+You can find the official source code here: https://github.com/official-stockfish/Stockfish 
 
 This project utilizes data from the Lichess Open Database, made available by Lichess under the Creative Commons CC0 license.
 You can find the official data here: https://database.lichess.org/
+
 ---
 
 ## How to Replicate
