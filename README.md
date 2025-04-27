@@ -56,12 +56,18 @@ You can find the official data here: https://database.lichess.org/
 
 - Download a dataset from https://database.lichess.org/ (*Note: Files range from 8GB to 150+GB*). Alternatively, you can use a pre-processed dataset from Kaggle.
 - Extract the .zst file using 7-Zip (or another compatible tool).
-- Run the Python script xxxxx to filter games with existing analysis. Alternatively, process the games through Stockfish to generate position evaluations using xxxxx.
-- Execute the script xxxx to train the machine learning model using the game dataset.
-- Use Apifeatcher to retrieve data for the specific games you want to analyze.
+- Run the Python script "Eval_only.py" to filter games with existing analysis. Alternatively, process the games through Stockfish to generate position evaluations using "analyze_game.py" or "StockfishAnalysis.py".
+- Execute the script "train_ml_models.py" to train the machine learning model using the game dataset.
+- Use "api_fetcher" to retrieve data for the specific games you want to analyze or dl the Pgn from a website.
 - Lauch the main script
 
 ---
 
 ## Launch on your computer 
+
+- git clone https://github.com/N-Herwede/chess-anti-cheat.git
+- cd chess-anti-cheat
+- pip install -r requirement.txt
+- streamlit run app/app.py
+
 
