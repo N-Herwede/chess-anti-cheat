@@ -10,9 +10,8 @@ A full-stack web application that detects potential cheating in chess games usin
 ##  Features
 
 -  Upload PGN files or analyze games directly from Chess.com & Lichess
--  Interactive replay board with autoplay and navigation controls
 -  Cheating prediction for each player using:
-  - Random Forest
+  - Catboost
   - XGBoost
 -  SHAP-based explainability of model predictions
 -  Player metadata (Elo, result, etc.)
