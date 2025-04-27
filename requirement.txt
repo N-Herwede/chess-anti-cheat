@@ -1,0 +1,7 @@
+pandas
+numpy
+python-chess
+xgboost
+catboost
+scikit-learn
+requests
