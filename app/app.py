@@ -61,7 +61,7 @@ def display_game_metadata(game):
     time_control = game.headers.get("TimeControl", "Unknown")
 
     with st.container():
-        st.markdown("### 🎨 Game Metadata")
+        st.markdown("###  Game Metadata")
         st.info(f"**White:** {white}\n\n**Black:** {black}\n\n**Result:** {result}\n\n**Opening:** {opening}\n\n**Time Control:** {time_control}\n\n**Date:** {date}")
         if site.startswith("http"):
             st.markdown(f"[View Game Online]({site})")
@@ -119,7 +119,7 @@ def main():
         game_options = [get_game_name(game) for game in games]
         game_idx = st.selectbox("Select a Game to Analyze", range(len(games)), format_func=lambda x: game_options[x])
 
-        analyze_all_checkbox = st.checkbox("✅ Analyser toutes les parties du joueur")
+        analyze_all_checkbox = st.checkbox(" Analyser toutes les parties du joueur")
 
         if analyze_all_checkbox:
             if st.button("Analyze All Games"):
